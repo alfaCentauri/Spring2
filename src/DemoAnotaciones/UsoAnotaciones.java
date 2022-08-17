@@ -6,6 +6,7 @@ import org.springframework.beans.*;
 public class UsoAnotaciones {
 
 	public static void main(String[] args) {
+		System.out.println("Demostración del uso de anotaciones en Spring.");
 		try {
 			ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext.xml");
 			Empleados Pedro = contexto.getBean("ComercialExp", Empleados.class);
